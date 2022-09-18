@@ -30,11 +30,18 @@
     min-height: 500px;
     width: 100%;
     background-color: #997fbe;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
     .contact-form {
       min-height: 500px;
-      width: 60%;
-      margin: 0 auto;
+      width: 100%;
+      // background-color: red;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
 
       .form-text-input {
         width: 529px;
@@ -79,6 +86,17 @@
 
       .contactBtn:hover {
         box-shadow: 5px 5px #3f84c5, 10px 10px #bb3c6d, 15px 15px #fbff05;
+      }
+    }
+
+    .contact-form-img {
+      min-height: 500px;
+      width: 60%;
+      // background-color: rgb(195, 241, 28);
+
+      img {
+        height: 400px;
+        width: 400px;
       }
     }
   }
