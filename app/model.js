@@ -138,6 +138,9 @@ var contactContent = `<section class="contact-wrapper">
     </div>
     <div class="contactBtn">SEND MESSAGE</div>
   </div>
+  <div class="contact-form-img">
+    <img src="images/veryCool.png" alt="">
+  </div>
 </div>
 </section>`;
 
