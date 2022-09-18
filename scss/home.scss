@@ -1,0 +1,123 @@
+.home-wrapper {
+  min-height: 100%;
+  background-color: #997fbe;
+
+  .home-head {
+    height: 800px;
+    width: 100%;
+    // background-color: purple;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .home-mid-container {
+    min-height: 400px;
+    width: 100%;
+
+    .home-mid-img {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: relative;
+
+      img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      .imgBtn {
+        position: absolute;
+        background-color: #997fbe;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-family: "Nanum Pen Script";
+        border-radius: 9px;
+        cursor: pointer;
+      }
+
+      .imgBtn:hover {
+        box-shadow: 5px 5px #3f84c5, 10px 10px #bb3c6d, 15px 15px #fbff05;
+      }
+
+      img:hover {
+        -moz-box-shadow: 0 0 80px #d6529b;
+        -webkit-box-shadow: 0 0 80px #d6529b;
+        box-shadow: 0 0 80px #d6529b;
+      }
+    }
+  }
+
+  .home-text-container {
+    min-height: 260px;
+    width: 100%;
+    background: linear-gradient(
+      to right,
+      yellow 20%,
+      //   yellow 40%,
+      pink 40%,
+      pink 40%,
+      #76c3f0 60%,
+      //   #76c3f0 80%
+    );
+
+    .home-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .big-text {
+      font-size: 80px;
+      font-family: "Nanum Pen Script";
+      color: #fff;
+    }
+
+    .txtBtn {
+      background-color: #bb3c6d;
+      border: none;
+      color: #fff;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: "Nanum Pen Script";
+      border-radius: 9px;
+      cursor: pointer;
+    }
+
+    .txtBtn:hover {
+      box-shadow: 5px 5px #3f84c5, 10px 10px #bb3c6d, 15px 15px #fbff05;
+    }
+  }
+
+  .home-bottom-container {
+    min-height: 300px;
+    width: 100%;
+
+    .home-bottom-img {
+      min-height: 300px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

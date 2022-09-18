@@ -1,0 +1,84 @@
+.products-wrapper {
+  min-height: 100%;
+  width: 100%;
+  background-color: #997fbe;
+
+  .product-head {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // background-color: red;
+    padding-top: 100px;
+
+    img {
+      height: 400px;
+      width: 400px;
+      object-fit: cover;
+      border: 5px solid #ee7589;
+    }
+
+    img:hover {
+      -moz-box-shadow: 0 0 20px #ffc0cb;
+      -webkit-box-shadow: 0 0 20px #ffc0cb;
+      box-shadow: 0 0 20px #ffc0cb;
+    }
+  }
+
+  .product-head-text {
+    min-height: 100px;
+    width: 100%;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+
+    .product-text {
+      font-size: 80px;
+      font-family: "Nanum Pen Script";
+    }
+  }
+
+  .product-rows-one {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    // background-color: red;
+
+    .product-row-img {
+      height: 300px;
+      width: 250px;
+      //   background-color: aqua;
+      flex-direction: column;
+
+      img {
+        height: 300px;
+        width: 250px;
+        object-fit: cover;
+        border: 5px solid #ffff00;
+      }
+
+      .shop-btn {
+        width: 133px;
+        height: 40px;
+        font-size: 15px;
+        background-color: #f36078;
+        // border-radius: 20px;
+        border-color: #ffff00;
+        padding: 10px 6px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        margin: 5px 55px;
+      }
+
+      .shop-btn:hover {
+        box-shadow: 5px 5px #3f84c5, 10px 10px #bb3c6d, 15px 15px #fbff05;
+      }
+    }
+  }
+}

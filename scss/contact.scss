@@ -1,0 +1,85 @@
+.contact-wrapper {
+  min-height: 100%;
+  width: 100%;
+  background-color: #997fbe;
+  .contact-header {
+    min-height: 300px;
+    width: 100%;
+
+    img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .contact-head-text {
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // background-color: red;
+    .head-text {
+      font-family: "Nanum Pen Script";
+      font-size: 30px;
+    }
+  }
+
+  .contact-form-container {
+    min-height: 500px;
+    width: 100%;
+    background-color: #997fbe;
+
+    .contact-form {
+      min-height: 500px;
+      width: 60%;
+      margin: 0 auto;
+
+      .form-text-input {
+        width: 529px;
+        margin-bottom: 20px;
+
+        input {
+          width: 529px;
+          height: 60px;
+          background-color: rgb(235, 235, 235);
+          border-color: pink;
+          padding: 20px;
+          font-family: "Nanum Pen Script";
+        }
+      }
+
+      .form-text-message-input {
+        width: 529px;
+        margin-bottom: 20px;
+
+        input {
+          width: 529px;
+          height: 220px;
+          background-color: rgb(235, 235, 235);
+          border-color: pink;
+
+          padding: 20px;
+          font-family: "Nanum Pen Script";
+        }
+      }
+
+      .contactBtn {
+        width: 168px;
+        height: 60px;
+        background-color: #fff;
+        text-align: center;
+        padding: 20px;
+        color: #000;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: "Nanum Pen Script";
+      }
+
+      .contactBtn:hover {
+        box-shadow: 5px 5px #3f84c5, 10px 10px #bb3c6d, 15px 15px #fbff05;
+      }
+    }
+  }
+}
